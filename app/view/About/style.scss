@@ -1,0 +1,19 @@
+.about-layout {
+  height: 100%;
+  .logo {
+    width: 140px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+    color: #fff;
+    text-align: center;
+    line-height: 31px;
+    font-size: 18px;
+  }
+
+  .about-content {
+    height: calc(100% - 64px);
+    padding: 0 50px;
+  }
+}
